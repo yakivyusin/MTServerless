@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTServerless.Models", "MTServerless.Models\MTServerless.Models.csproj", "{EB124C60-BCA6-48D2-8DB8-B300487F3D2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless.Models", "MTServerless.Models\MTServerless.Models.csproj", "{EB124C60-BCA6-48D2-8DB8-B300487F3D2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTServerless.Generator", "MTServerless.Generator\MTServerless.Generator.csproj", "{77159749-C04D-4458-A871-E746445384B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless.Generator", "MTServerless.Generator\MTServerless.Generator.csproj", "{77159749-C04D-4458-A871-E746445384B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless.Relations", "MTServerless.Relations\MTServerless.Relations.csproj", "{40A76445-2595-4070-8523-E7EC139EBD1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{77159749-C04D-4458-A871-E746445384B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77159749-C04D-4458-A871-E746445384B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77159749-C04D-4458-A871-E746445384B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A76445-2595-4070-8523-E7EC139EBD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A76445-2595-4070-8523-E7EC139EBD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A76445-2595-4070-8523-E7EC139EBD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A76445-2595-4070-8523-E7EC139EBD1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
