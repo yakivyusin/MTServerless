@@ -7,15 +7,15 @@ using MTServerless.Relations;
 
 namespace MTServerless
 {
-    public static class AddColumn
+    public static class RemoveColumn
     {
-        [FunctionName("AddColumn")]
+        [FunctionName("RemoveColumn")]
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req)
         {
             var generator = new Generator.Generator(HttpRequestParser.ParseGeneratorSettings(req));
             var data = generator.Generate();
-            var relation = new AddColumnRelation();
+            var relation = new RemoveColumnRelation();
 
             return new OkObjectResult(relation.Validate(data));
         }
