@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless.Generator", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless.Relations", "MTServerless.Relations\MTServerless.Relations.csproj", "{40A76445-2595-4070-8523-E7EC139EBD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTServerless", "MTServerless\MTServerless.csproj", "{83243201-8E02-4320-A401-7260E9E94483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTServerless", "MTServerless\MTServerless.csproj", "{83243201-8E02-4320-A401-7260E9E94483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
